@@ -97,10 +97,10 @@ namespace ashnet {
     };
 
     template <class T>
-    class StreamServer{
+    class StreamSocket{
         public:
-            StreamServer();
-            ~StreamServer();
+            StreamSocket();
+            ~StreamSocket();
 
             void start(Endpoint<T> endpoint);
         private:
